@@ -1,0 +1,31 @@
+{
+  "name": "sneakers",
+  "version": "1.0.0",
+  "description": "Sneako — High-performance local sneaker e-commerce storefront with custom shopping cart, checkout system, and interactive product zoom.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lahariannam2019/sneakers.git"
+  },
+  "keywords": [
+    "sneakers",
+    "sneako",
+    "e-commerce",
+    "storefront",
+    "javascript",
+    "nodejs",
+    "localstorage-cart",
+    "responsive-design",
+    "vanilla-js"
+  ],
+  "author": "Lahari Annam <lahariannam789@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lahariannam2019/sneakers/issues"
+  },
+  "homepage": "https://github.com/lahariannam2019/sneakers#readme"
+}
