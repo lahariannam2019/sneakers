@@ -119,7 +119,7 @@ const server = http.createServer(handleRequest);
 
 server.listen(PORT, () => {
   console.log(`\n=================================================`);
-  console.log(`🚀 Sneako — Local Sneaker E-Commerce Store`);
+  console.log(`🚀 Sneakers — Local Sneaker E-Commerce Store`);
   console.log(`📍 Local URL: http://localhost:${PORT}`);
   console.log(`📂 Serving files from: ${PUBLIC_DIR}`);
   console.log(`=================================================\n`);

@@ -1,4 +1,4 @@
-# Sneako — High-Performance Sneaker E-Commerce Storefront
+# Sneakers — High-Performance Sneaker E-Commerce Storefront
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg?style=for-the-badge&logo=node.js)](https://nodejs.org)
@@ -58,7 +58,7 @@
 
 ## 🏗️ Technical Architecture
 
-Sneako is built with a zero-dependency architecture. It pairs pre-rendered static HTML markup with a vanilla JavaScript e-commerce engine and a built-in Node.js server.
+Sneakers is built with a zero-dependency architecture. It pairs pre-rendered static HTML markup with a vanilla JavaScript e-commerce engine and a built-in Node.js server.
 
 ```mermaid
 graph TD

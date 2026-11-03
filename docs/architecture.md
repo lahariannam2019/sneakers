@@ -1,6 +1,6 @@
 # System Architecture & Technical Design
 
-This document details the software architecture, design decisions, and component interaction across the **Sneako Local Sneaker E-Commerce Store**.
+This document details the software architecture, design decisions, and component interaction across the **Sneakers Local Sneaker E-Commerce Store**.
 
 ```mermaid
 graph TD
@@ -22,7 +22,7 @@ graph TD
 
 ## 1. High-Level Architecture
 
-Sneako is designed as a **hybrid high-performance static architecture** combined with a **pure JavaScript client-side e-commerce engine**. 
+Sneakers is designed as a **hybrid high-performance static architecture** combined with a **pure JavaScript client-side e-commerce engine**. 
 
 ### Key Architectural Tenets:
 1. **Zero External Runtime Dependencies**: The server is built entirely with Node.js built-in modules (`http`, `fs`, `path`). No heavy frameworks (like Express) are required, keeping memory footprint under 25 MB and startup time under 50 ms.

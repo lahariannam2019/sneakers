@@ -1,7 +1,7 @@
 {
   "name": "sneakers",
   "version": "1.0.0",
-  "description": "Sneako — High-performance local sneaker e-commerce storefront with custom shopping cart, checkout system, and interactive product zoom.",
+  "description": "Sneakers - High-performance sneaker e-commerce storefront with custom shopping cart, checkout system, and interactive product zoom.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -13,14 +13,11 @@
   },
   "keywords": [
     "sneakers",
-    "sneako",
-    "e-commerce",
+    "ecommerce",
     "storefront",
-    "javascript",
-    "nodejs",
-    "localstorage-cart",
-    "responsive-design",
-    "vanilla-js"
+    "shopping-cart",
+    "product-zoom",
+    "checkout"
   ],
   "author": "Lahari Annam <lahariannam789@gmail.com>",
   "license": "MIT",

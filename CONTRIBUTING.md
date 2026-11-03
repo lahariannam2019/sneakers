@@ -1,6 +1,6 @@
-# Contributing to Sneako
+# Contributing to Sneakers
 
-Thank you for your interest in contributing to **Sneako**! We welcome bug reports, feature suggestions, documentation enhancements, and code contributions.
+Thank you for your interest in contributing to **Sneakers**! We welcome bug reports, feature suggestions, documentation enhancements, and code contributions.
 
 ---
 

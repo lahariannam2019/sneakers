@@ -29,7 +29,7 @@ This document describes how URL routing, clean navigation, and redirect handling
 
 In compiled single-page applications, client-side routers intercept internal `<a>` clicks and perform dynamic route matching. Because brand slugs were updated from historical names (`nyke-...`, `addies-...`) to authentic brands (`nike-...`, `adidas-...`), client-side dynamic querying could fail if chunk metadata was unavailable.
 
-Sneako solves this using a resilient **two-tier defense**:
+Sneakers solves this using a resilient **two-tier defense**:
 
 ### Layer 1: Capture-Phase Native Browser Navigation
 All clicks on shoe links (`a[href*="/shoes/"]`) are intercepted at the window level during the **capture phase** (before any framework click handler executes):
