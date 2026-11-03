@@ -657,22 +657,17 @@ a[href*="./contact"] {
 
 /* ==========================================================================
    FOOTER TYPOGRAPHIC ALIGNMENT (S N E A K E R S)
-   Align second 'E' and 'R' so they sit on the correct matching baselines:
-   - Second 'E' (6th SVG): translateY(-50px) to match first 'E', 'S', and 'K'
-   - 'R' (7th SVG): translateY(50px) to match 'N', 'A', and 'S'
+   E and R placement must be identical (same vertical line):
+   Both 6th SVG ('E') and 7th SVG ('R') placed at translateY(-50px)
    ========================================================================== */
-.framer-tyd2me > svg:nth-child(6) {
-  transform: translateY(-50px) !important;
-}
+.framer-tyd2me > svg:nth-child(6),
 .framer-tyd2me > svg:nth-child(7) {
-  transform: translateY(50px) !important;
+  transform: translateY(-50px) !important;
 }
 
 @media (max-width: 809.98px) {
-  .framer-tyd2me > svg:nth-child(6) {
-    transform: translateY(-30px) !important;
-  }
+  .framer-tyd2me > svg:nth-child(6),
   .framer-tyd2me > svg:nth-child(7) {
-    transform: translateY(30px) !important;
+    transform: translateY(-30px) !important;
   }
 }
